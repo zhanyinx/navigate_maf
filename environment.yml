@@ -1,7 +1,0 @@
-name: navigate_maf
-dependencies:
-  pip:
-    - streamlit
-    - streamlit-aggrid
-    - pandas
-    - numpy
