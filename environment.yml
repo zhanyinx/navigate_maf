@@ -6,4 +6,5 @@ dependencies:
   - libgcc
   - numpy
   - pandas
-  - streamlit-aggrid
+  pip:
+    - streamlit-aggrid
