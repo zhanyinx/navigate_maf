@@ -1,10 +1,6 @@
 name: navigate_maf
-channels: 
-  - defaults
-  - conda-forge
 dependencies:
-  - libgcc
-  - numpy
-  - pandas
   pip:
     - streamlit-aggrid
+    - pandas
+    - numpy
