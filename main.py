@@ -81,7 +81,7 @@ def main():
 
         vaf = float(st.text_input("VAF threshold", "0"))
 
-        out = out.loc[(out["tumor_f"] > vaf) | (out["Variant_Type"].isin(["INS", "DEL"])), columns2keep]
+        out = out.loc[(out["tumor_f"] > vaf), columns2keep]
 
         gb = GridOptionsBuilder.from_dataframe(out)
         gb.configure_default_column(
